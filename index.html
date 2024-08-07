@@ -2,51 +2,14 @@
 <html lang="en">
   <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
-      <style> html, body {
-      margin: 0;
-      padding: 0;
-            cursor: crosshair;
-    }
-    canvas {
-      display: block;
-    }
-        h1{
-            position:absolute;
-            top:1rem;
-            left:3rem;
-            z-index: 2;
-        }
-        p{
-            position:absolute;
-            width: 50vw;
-            top:4rem;
-            left:3rem;
-            z-index: 2;
-        }
-        
-    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
   </head>
   <body>
     <main>
-        <h1>HOLA</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
     </main>
     <script src="sketch.js"></script>
   </body>
-    <script>
-        function setup() {
-    createCanvas(windowWidth, windowHeight);
-    background(220,200,150);
-    stroke(100);
-
-}
-
-function draw() {
-  line(pmouseX, pmouseY, mouseX, mouseY);
- }
-    </script>
-    
-    
 </html>
